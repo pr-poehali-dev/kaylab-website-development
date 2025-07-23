@@ -113,7 +113,7 @@ const Index = () => {
             <div className="animate-fade-in">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
                 Инновационные решения от 
-                <span className="text-blue-600 block">ООО "Кайлаб"</span>
+                <span className="text-blue-600 block">ООО "КАЙЛАБ"</span>
               </h1>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
                 Лидер в сфере разработки программного обеспечения, производства товаров, 
