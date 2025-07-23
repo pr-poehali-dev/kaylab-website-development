@@ -144,9 +144,7 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               Наши направления
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Комплексные решения для развития вашего бизнеса в шести ключевых областях
-            </p>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">Комплексные решения для сопровождения Вашего бизнеса. Вот несколько ключевых направлений нашей деятельности:</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
