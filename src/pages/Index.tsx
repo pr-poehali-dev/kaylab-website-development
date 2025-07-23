@@ -33,6 +33,18 @@ const Index = () => {
       title: 'ГСМ торговля',
       description: 'Оптово-розничная торговля горюче-смазочными материалами премиум качества',
       color: 'bg-orange-50 text-orange-600'
+    },
+    {
+      icon: 'Scale',
+      title: 'Юридические услуги',
+      description: 'Комплексное правовое сопровождение бизнеса, консультации и представительство',
+      color: 'bg-purple-50 text-purple-600'
+    },
+    {
+      icon: 'Search',
+      title: 'Судебно-экспертная деятельность',
+      description: 'Проведение независимых экспертиз и исследований для судебных органов',
+      color: 'bg-indigo-50 text-indigo-600'
     }
   ];
 
@@ -136,10 +148,10 @@ const Index = () => {
               Наши направления
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Комплексные решения для развития вашего бизнеса в четырех ключевых областях
+              Комплексные решения для развития вашего бизнеса в шести ключевых областях
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-0 bg-white shadow-md">
                 <CardHeader className="text-center pb-4">
