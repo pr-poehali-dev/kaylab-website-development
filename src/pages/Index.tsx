@@ -115,10 +115,7 @@ const Index = () => {
                 Инновационные решения от 
                 <span className="text-blue-600 block">ООО "КАЙЛАБ"</span>
               </h1>
-              <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                Лидер в сфере разработки программного обеспечения, производства товаров, 
-                рекреационной деятельности и торговли ГСМ
-              </p>
+              <p className="text-xl text-slate-600 mb-8 leading-relaxed">"Omnes in una est unum in omnibus"</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   Наши услуги
