@@ -89,7 +89,7 @@ const Index = () => {
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">К</span>
               </div>
-              <span className="text-xl font-semibold text-slate-900">Кайлаб</span>
+              <span className="text-xl font-semibold text-slate-900">КАЙЛАБ</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-slate-600 hover:text-blue-600 transition-colors">Главная</a>
